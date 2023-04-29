@@ -208,13 +208,13 @@ function GPTCOST(model='', maxOutputTokens=100, text='', prompt='', systemPrompt
 /*const onOpen = () => {
 const ui = SpreadsheetApp.getUi();
 ui.createMenu("ChatGPT")
-  .addItem("This notebook was created by Moritz Laurer. Click here to see the source-code on GitHub.", "openUrl")
+  .addItem("This notebook was created by ChatGPTEROS. Click here to see the source-code on GitHub.", "openUrl")
   // This script was inspired by the great blog post by Sarah Tamsin: https://sarahtamsin.com/integrate-chatgpt-with-google-sheets/
   .addToUi();
 };
 
 const openUrl = () => {
-  const url = "https://github.com/MoritzLaurer/ChatGPT-google-sheets";
+  const url = "https://github.com/chatgpteros/gsheet-tools";
   const html = "<script>window.open('" + url + "', '_blank');google.script.host.close();</script>";
   const ui = HtmlService.createHtmlOutput(html);
   SpreadsheetApp.getUi().showModalDialog(ui, "Redirecting...");
